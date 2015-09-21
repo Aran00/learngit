@@ -2,9 +2,9 @@
 02 	git config --global user.email "yuran00@gmail.com"
 03 	git init
 04 	git add readme.txt
-	Add changes to stage
+    Add changes to stage
 05 	git commit -m "wrote a readme file"
- 	Commit the changes in stage to master
+ 	  Commit the changes in stage to master
 06 	git status		
 07 	git diff readme.txt
 08 	git log
@@ -20,24 +20,26 @@
 Working Directory, Repository(.git directory), stage, master
 
 12 	git checkout -- readme.txt
-	Revert the file to the status of last git commit/add.
+    Revert the file to the status of last git commit/add.
 13 	git reset HEAD readme.txt
- 	Revoke the changes in stage, and put them to working directory
+ 	  Revoke the changes in stage, and put them to working directory
 场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，⽤命令git checkout -- file。
 场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD file，就回到了场景1，第⼆步按场景1操作。
 场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。
 
 14	git rm test.txt 
-	If you have git add/rm, and want to recover the stage, use [git reset HEAD]; If you want the working directory and stage all revert to the last commit, use [git reset --hard HEAD]
+    If you have git add/rm, and want to recover the stage, use [git reset HEAD]; If you want the working directory and 
+stage all revert to the last commit, use [git reset --hard HEAD]
 
 The remote repository
 generate a pair of RSA key to relate pub key with your commit
 
 15	git remote add origin https://github.com/Aran00/learngit.git
-	git remote add origin git@github.com:Aran00/learngit.git
+    git remote add origin git@github.com:Aran00/learngit.git
     Relate current directory with remote repository
 
 16  git push [-u] origin master
--u is used when pushing master content at the first time
+    -u is used when pushing master content at the first time
 
-
+17  git clone git@github.com:Aran00/learngit.git
+    Would add learngit folder under current directory
