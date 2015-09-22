@@ -36,10 +36,31 @@ generate a pair of RSA key to relate pub key with your commit
 
 15	git remote add origin https://github.com/Aran00/learngit.git
     git remote add origin git@github.com:Aran00/learngit.git
+	git remote add [shortname] [url]
     Relate current directory with remote repository
 
-16  git push [-u] origin master
+16 	See the remote repositories
+	git remote -v
+
+17  git push [-u] origin master
     -u is used when pushing master content at the first time
 
-17  git clone git@github.com:Aran00/learngit.git
+18  git clone git@github.com:Aran00/learngit.git
     Would add learngit folder under current directory
+
+19 	git pull
+	Merge the cloned origin repository's change to current working copy(direct update)
+
+20 	git checkout -b dev
+	is equal to 2 commands:
+	git branch dev			# Create a branch "dev"
+	git checkout dev
+
+21	git branch
+	list all the branches
+
+22	
+
+
+
+
