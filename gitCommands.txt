@@ -12,7 +12,7 @@
 09 	git reset --hard HEAD^
    		Back to the last revision
    		Now the lastest commit would be invisible in git log results
-10  git reset --hard 5b9c728f
+10  	git reset --hard 5b9c728f
     	Commit id should be known at first, need not to be complete
 11 	git reflog
 	    Show all the change logs
@@ -35,18 +35,18 @@ The remote repository
 generate a pair of RSA key to relate pub key with your commit
 
 15	git remote add origin https://github.com/Aran00/learngit.git
-    git remote add origin git@github.com:Aran00/learngit.git
+    	git remote add origin git@github.com:Aran00/learngit.git
 	git remote add [shortname] [url]
     	Relate current directory with remote repository
 
 16 	git remote -v
 		See the remote repositories
 
-17  git push [-u] origin master/dev
+17  	git push [-u] origin master/dev
 		push local branch to remote repository
-    	-u is used when pushing content at the first time
+    		-u is used when pushing content at the first time
 
-18  git clone git@github.com:Aran00/learngit.git
+18  	git clone git@github.com:Aran00/learngit.git
 	    Would add learngit folder under current directory
 
 19 	git pull
@@ -138,6 +138,9 @@ git clone git@github.com:michaelliao/bootstrap.git
 *.egg-info
 dist
 build
+
+	git config --global core.excludesfile ~/.gitignore 
+Ignore some files globally
 
 32	Configure alias
 $ git config --global alias.st status
