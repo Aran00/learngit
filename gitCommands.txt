@@ -43,11 +43,12 @@ generate a pair of RSA key to relate pub key with your commit
 16 	git remote -v
 		See the remote repositories
 
-17  	git push [-u] origin master/dev
+17  git push [-u] origin master/dev
 		push local branch to remote repository
-    		-u is used when pushing content at the first time
+    	-u is used when pushing content at the first time
 
-18  	git clone git@github.com:Aran00/learngit.git
+18  git clone git@github.com:Aran00/learngit.git
+	git clone https://username:password@github.com/username/repository.git
 	    Would add learngit folder under current directory
 
 19 	git pull
