@@ -152,3 +152,7 @@ $ git config --global alias.br branch
 
 33	list all files’ revision ids
 git ls-tree -r HEAD
+git ls-tree --abbrev -l -r 52d0f
+
+34  	About git objects:
+https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
