@@ -39,6 +39,8 @@ generate a pair of RSA key to relate pub key with your commit
     	git remote add origin git@github.com:Aran00/learngit.git
 	git remote add [shortname] [url]
     	Relate current directory with remote repository
+	git remote set [origin-name] [url]
+		Reset some remote url
 
 16 	git remote -v
 		See the remote repositories
@@ -156,3 +158,8 @@ git ls-tree --abbrev -l -r 52d0f
 
 34  	About git objects:
 https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
+
+35 See branch to which origin-branch
+$ git branch -vv
+  main   aaf02f0 [main/master: ahead 25] Some other commit
+* master add0a03 [jdsumsion/master] Some commit
