@@ -79,6 +79,8 @@ generate a pair of RSA key to relate pub key with your commit
 		delete a branch forcefully
 	git branch -m <oldname> <newname>
 		rename a branch
+	git push origin --delete device-manage
+		delete a remote branch
 	Git鼓励大量使用分支：
 	查看分支：git branch
 	创建分支：git branch name
