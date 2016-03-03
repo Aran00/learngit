@@ -166,3 +166,6 @@ https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
 $ git branch -vv
   main   aaf02f0 [main/master: ahead 25] Some other commit
 * master add0a03 [jdsumsion/master] Some commit
+
+36 Compare the local committed content with remote
+	git log origin/master..HEAD
