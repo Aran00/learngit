@@ -169,3 +169,10 @@ $ git branch -vv
 
 36 Compare the local committed content with remote
 	git log origin/master..HEAD
+
+37 When merge confict
+    git checkout --ours index.html
+	git checkout --theirs _layouts/default.html
+
+38 Check which branches have been merged to another
+	git branch --merged develop-Tech
